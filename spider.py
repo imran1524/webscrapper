@@ -10,4 +10,3 @@ data = response.text
 
 soup = BeautifulSoup(data,'html.parser')
 links = soup.prettify()
-print(links)
